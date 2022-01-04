@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ImageSlider</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+  <div id="container">
+    <h1>ImageSlider</h1>
+    <div id="image-slider">
+      <!-- <img id="image" name='slide' width='400' height="200"/> -->
+    </div>
+  </div>
+   <div class="wrapper">
+    <div class="prev-btn" onclick="prev()"><i class="fas fa-chevron-left"></i></div>
+    <div class="next-btn" onclick="next()"><i class="fas fa-chevron-right"></i></div>
+      <!-- <div class="slide-image"><img src="https://p4.wallpaperbetter.com/wallpaper/806/786/522/sea-beach-love-toy-bear-hd-wallpaper-preview.jpg"/></div> -->
+      <!-- <div class="slide-image"><img src="https://p4.wallpaperbetter.com/wallpaper/547/248/879/toy-teddy-bear-teddy-wallpaper-preview.jpg"/></div> -->
+      <!-- <div class="slide-image"><img src="https://p4.wallpaperbetter.com/wallpaper/908/865/167/toys-sitting-portrait-teddy-bears-wallpaper-preview.jpg"/></div> -->
+      <img id="image" name='slide' width='100%' height="1000px"/>
+  </div>
+  <div class="navigation-dots">
+    <div class="single-dot"></div>
+    <div class="single-dot active"></div>
+    <div class="single-dot"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
